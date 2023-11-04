@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuppon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-7xl text-center text-red-600 mb-7">Discount! <span class="text-blue-600">discount!
+            </span>discount!</h1>
+    </header>
+    <main>
+        <section>
+            <div class="bg-sky-400 mt-4 mx-auto w-2/4 p-8 rounded-lg text-white">
+                <h3 class="text-5xl mb-8 font-semibold">price: $<span id="total-price">1000</span></h3>
+                <h3 class="text-3xl mt-3">Cuppon: <input id="total" class="p-1 pl-5 text-xl text-black rounded-md" type="text" name=""  placeholder="Enter the cuppon here"></h3>
+                <button id="apply-btn" class="text-3xl font-medium bg-green-600 px-5 my-5 py-2 rounded-md ">Apply</button>
+                <h3 class="text-3xl mt-3">Please Pay: $<span id="total-pay">00</span></h3>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/cuppon.js"></script>
+</body>
+</html>
